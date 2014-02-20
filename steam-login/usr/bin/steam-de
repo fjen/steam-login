@@ -60,7 +60,10 @@ unset prefix
 unset parameters
 unset program
 
-parameters='-tenfoot -enableremotecontrol'
+parameters='-enableremotecontrol'
+if [ -n $1 ]; then
+    parameters=$parameters $@
+fi
 
 #Set optirun as prefix if available
 which optirun && prefix=optirun
