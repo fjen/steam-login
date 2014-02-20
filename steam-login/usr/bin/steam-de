@@ -62,7 +62,7 @@ unset program
 
 parameters='-enableremotecontrol'
 if [ -n $1 ]; then
-    parameters=$parameters $@
+    parameters="$parameters $@"
 fi
 
 #Set optirun as prefix if available

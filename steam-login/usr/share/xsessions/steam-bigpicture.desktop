@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Steam Big Picture
 Comment=This session logs you directly to STEAM
-Exec=steam-de -tenfoot
+Exec=steam-de-bp
 Icon=steam
 Type=Application
