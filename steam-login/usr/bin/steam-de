@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #STEAM DE - Script for starting Steam at login
 #Copyright (C) 2012  Thomaz de Oliveira dos Reis <thor27@gmail.com>
 #
